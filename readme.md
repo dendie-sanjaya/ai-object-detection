@@ -34,13 +34,13 @@ The architecture uses a **Raspberry Pi 4 + Camera** as the **edge device** for v
 
 This approach is designed for **highly centralized and efficient maintenance**, making it a low-cost solution for the long term.
 
-### C. Centralized AI Model Updates
+## C. Centralized AI Model Updates
 
 * **TensorFlow.js (TF.js) on the Client (PWA):** The main benefit is using **TensorFlow.js** on the client (PWA) to load the AI model (e.g., COCO-SSD) from the server.
 * **Minimal Deployment:** **AI Model updates** (like adding new objects to detect) are **done in only one place**—the **Web Server**.
 * **No Physical Device Deployment Needed:** This approach **removes the need to physically deploy new firmware or applications to every Raspberry Pi** each time the model is updated or improved.
 
-### D. Frontend PWA & Detection Flexibility
+## D. Frontend PWA & Detection Flexibility
 
 The Frontend PWA (`manifest.json`, `style.css`, `script.js`, `index.html`) acts as the detection control center, using a JavaScript base for high flexibility. **Our main focus is on the PWA for object detection.**
 
@@ -48,7 +48,7 @@ The Frontend PWA (`manifest.json`, `style.css`, `script.js`, `index.html`) acts 
 * **Custom Camera Settings:** The system supports **custom services** where detection parameters, *confidence scores*, and camera configurations can be **different for each Raspberry Pi**, controlled via the *service server*.
 * **Dynamic Technology:** Using **TensorFlow.js** based on JavaScript provides **great value in flexible and dynamic maintenance**.
 
-### E. Proactive Notifications and Digital Evidence
+## E. Proactive Notifications and Digital Evidence
 
 This system functions as a **proactive security camera** with a multi-channel notification mechanism:
 
