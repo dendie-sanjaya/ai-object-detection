@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 20px 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.container {
+    position: relative;
+    margin: 20px auto;
+    width: 90vw; 
+    max-width: 600px;
+    /* Rasio Aspek 4:3 */
+    padding-top: 75%; 
+    background-color: #000; 
+}
+
+#webcam, #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Mencegah pemotongan (zoom) */
+    object-fit: contain; 
+}
+
+#webcam {
+    z-index: 1; 
+    /* PEMBALIKAN (MIRRORING) HANYA UNTUK VIDEO */
+    transform: scaleX(-1); 
+}
+
+#canvas {
+    z-index: 2; 
+    /* CANVAS DIBIARKAN NORMAL agar teks tidak terbalik */
+    transform: scaleX(1); 
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+    padding-bottom: 50px;
+}

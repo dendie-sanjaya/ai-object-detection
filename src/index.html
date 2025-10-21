@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Deteksi Objek Laptop</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@latest"></script>
+</head>
+<body>
+    <h1>Deteksi Objek Real-Time (Laptop) 📸</h1>
+
+    <button id="startButton">Mulai Deteksi Kamera</button>
+
+    <div id="cameraContainer" class="container hidden"> 
+        <video id="webcam" autoplay playsinline muted></video>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <p id="status">Tekan tombol di atas untuk memulai deteksi.</p>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
