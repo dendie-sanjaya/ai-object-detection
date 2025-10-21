@@ -3,7 +3,6 @@
 This system is a **smart proactive security camera solution**. It combines low-cost **edge computing hardware** (Raspberry Pi 4) with **Web-based Artificial Intelligence (AI)** for efficient processing and highly flexible maintenance.
 
 ## Table of Contents
-
 - [💡 Smart Proactive Security System: TensorFlow.js \& Edge Computing using Raspberry Pi 4](#-smart-proactive-security-system-tensorflowjs--edge-computing-using-raspberry-pi-4)
   - [Table of Contents](#table-of-contents)
   - [A. Core Architecture](#a-core-architecture)
@@ -19,7 +18,7 @@ This system is a **smart proactive security camera solution**. It combines low-c
 ***
 
 ## A. Core Architecture
-
+dsadas
 ![ss](./desing/architecture.jpg)
 
 The architecture uses a **Raspberry Pi 4 + Camera** as the **edge device** for video capture. The main intelligence is in the application layer, specifically the **Frontend PWA (Progressive Web Application)**, which runs the object detection (e.g., *Human*).
