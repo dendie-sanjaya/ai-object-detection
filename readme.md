@@ -1,4 +1,4 @@
-# 💡 Smart Proactive Security System: TensorFlow.js & Edge Computing using Raspberry Pi 4
+# Smart Proactive Security System: TensorFlow.js & Edge Computing using Raspberry Pi 4
 
 This system is a **smart proactive security camera solution**. It combines low-cost **edge computing hardware** (Raspberry Pi 4) with **Web-based Artificial Intelligence (AI)** for efficient processing and highly flexible maintenance.
 
